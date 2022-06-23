@@ -1,0 +1,20 @@
+.suggestionList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 50%;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+    border: 0;
+    padding-bottom: 4px;
+    color: black;
+}
+
+.locationItem:hover{
+    padding: 5px;
+    background-color: rgb(214, 214, 250);
+}
